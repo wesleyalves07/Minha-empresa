@@ -1,0 +1,42 @@
+.pai-dos-lados{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.pai-dos-lados div{
+    width: 50%; 
+}
+.pai-dos-lados .direito img{
+    width: 100%;
+    
+}
+.pai-dos-lados .esquerdo p{
+    text-align: justify;
+}
+.pai-dos-lados .esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    
+.pai-dos-lados .esquerdo h1, .newsletter h2 {
+    text-transform: uppercase;
+}
+
+.newsletter {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.newsletter .inscreva-se {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.newsletter form input{
+    padding: 10px 6px;
+}
+
+
