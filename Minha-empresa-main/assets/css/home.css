@@ -47,7 +47,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
    
     .pai-dos-lados{
         flex-direction: column-reverse;
