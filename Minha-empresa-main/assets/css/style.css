@@ -6,6 +6,9 @@
     list-style: none;  /*tira o ponto da frente*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body {
+    background: linear-gradient(to right, #6e6e6e, #fff, #cf2727);
+}
  .cabecalho{
     display: flex; /*deixa os filhos um do lado do outro*/
     align-items: center;
@@ -13,8 +16,19 @@
     background-color: #333;
     padding: 30px 60px;
     color: #fff;
+ } 
+ .cabecalho h1{
+   
+    animation: movimentar 3s ;
  }
-
+ .cabecalho nav ul li :hover{
+    background-color: #fff;
+    color: #333;
+ }
+.cabecalho .selected{
+    background-color: #fff;
+    color: #333;
+}
  .cabecalho ul{
     display: flex;
     gap: 20px;
@@ -22,42 +36,30 @@
     .cabecalho a{ 
         color: #fff;
     }
-    .cabecalho .menu{
-        display: none;
-    }
-    
     .main{
         padding: 30px 60px ;
     }
-    .btn{
+    
+    @keyframes balada {
+        0%{color: red;
+
+        }
+        50%{ 
+            color: white;
+
+        }
+        100%{color: black;
+
+        }
         
-    width: 250px;
-    border: 2px black solid;
-    border-radius: 4px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    box-shadow: black 3px 3px 0px;
-    cursor: pointer; 
-    text-align: center;
     }
-   
+    @keyframes movimentar{
+        0%{ transform: translate(-300px);
+            color: red;
 
-   .btn:hover{
-    background-color: #444;
-}
-.rodape{
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-    .cabecalho nav{
-        display: none;
+        }
+        100%{ transform: translate(0));
+    
+            color: white
+        }
     }
-    .cabecalho .menu{
-        display: flex;
-    }
-}

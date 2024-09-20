@@ -1,0 +1,7 @@
+body{
+    background-image: url(../img/fernando-alves-SZJQcQGgNVU-unsplash\ \(1\).jpg);/*Colocar uma imagem de fundo*/
+    background-repeat: no-repeat; /* fundo nao repetir */
+    background-position: center; /* centralizar a imagem */
+    background-size: cover; /* deixar a imagem na tela inteira */
+    backdrop-filter: blur(3px) /* deixar fundo desfocado */
+}

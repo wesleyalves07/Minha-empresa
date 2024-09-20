@@ -18,14 +18,25 @@
     flex-direction: column;
     gap: 20px;
 }
-
+.pai-dos-lados .esquerdo button{
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer; 
     
+}
+.pai-dos-lados .esquerdo button:hover{
+    background-color: #444;
+}
 .pai-dos-lados .esquerdo h1, .newsletter h2 {
     text-transform: uppercase;
 }
 
 .newsletter {
-    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -35,33 +46,15 @@
     flex-direction: column;
     gap: 5px;
 }
-.newsletter form input{
-    padding: 10px 6px;
-}
-@media screen and (max-width: 780px) {
-    .newsletter form {
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-    }
 
+body {
+ background-image: url(../img/mauro-lima-zKqCXw4r7r8-unsplash.jpg) ;
+ background-repeat: no-repeat; /* fundo nao repetir */
+ background-position: center; /* centralizar a imagem */
+ background-size: cover; /* deixar a imagem na tela inteira */
+ background-color: #fff;
+ backdrop-filter: blur(3px)
 }
 
-@media screen and (max-width: 770px) {
-   
-    .pai-dos-lados{
-        flex-direction: column-reverse;
-    }
-    .pai-dos-lados div{
-        width: 100%; 
-    
-    }
-    .cabecalho{
 
-    }
-}
-
-    
-
-    
 
