@@ -6,9 +6,6 @@
     list-style: none;  /*tira o ponto da frente*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body {
-    background: linear-gradient(to right, #6e6e6e, #fff, #cf2727);
-}
  .cabecalho{
     display: flex; /*deixa os filhos um do lado do outro*/
     align-items: center;
@@ -16,19 +13,8 @@ body {
     background-color: #333;
     padding: 30px 60px;
     color: #fff;
- } 
- .cabecalho h1{
-   
-    animation: movimentar 3s ;
  }
- .cabecalho nav ul li :hover{
-    background-color: #fff;
-    color: #333;
- }
-.cabecalho .selected{
-    background-color: #fff;
-    color: #333;
-}
+
  .cabecalho ul{
     display: flex;
     gap: 20px;
@@ -40,26 +26,3 @@ body {
         padding: 30px 60px ;
     }
     
-    @keyframes balada {
-        0%{color: red;
-
-        }
-        50%{ 
-            color: white;
-
-        }
-        100%{color: black;
-
-        }
-        
-    }
-    @keyframes movimentar{
-        0%{ transform: translate(-300px);
-            color: red;
-
-        }
-        100%{ transform: translate(0));
-    
-            color: white
-        }
-    }
